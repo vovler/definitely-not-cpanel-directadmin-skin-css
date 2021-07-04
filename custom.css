@@ -1,1 +1,208 @@
-#test
+html.vue-app body.\--grid-layout .app-header, html.vue-app body .header-top.header-top{
+	background: #293a4a;
+}
+
+.app.\--has-master-login .trial-license, .app.\--trial-license .trial-license{
+	display:none;
+}
+
+.access-level-toggle-switch .ui-toggle-switch .label{
+	display:none
+}
+
+.userbar>.userbar-button .userbar-button-text{
+	color:white;
+}
+
+.icons-grid-category-title{
+	border: 1px solid #293a4a;
+    background-color: rgba(41,58,74,0.95);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.filters-bar-search{
+	width:100%;
+	padding-right:8px;
+}
+
+.icons-grid-category{
+	box-shadow: 0 0 3px rgb(0 0 0 / 20%);
+	background: white;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+}
+
+.icons-grid-category-entries{
+	padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grip{
+	display:none;
+}
+
+html.vue-app .dashboard-mobile .dashboardTab.dashboardTab{
+	padding: 12px !important;
+	background: rgba(41, 58, 74, 0.95);
+    color: white;
+    margin-right: 1em;
+    border-radius: 4px;
+    margin-left: 0px;
+	margin-bottom: 5px;
+}
+
+html.vue-app .dashboard-mobile .dashboardTab.dashboardTab>.dashboardTabHeader{
+	font-size: 1.3rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+html.vue-app .dashboard-mobile .dashboardTab.dashboardTab.-is-active{
+	background: #fff !important;
+	color:black;
+	border: 1px solid #e0e0e0 !important;
+}
+
+html.vue-app .dashboard-mobile .dashboardTab.dashboardTab.-is-active .dashboardTabHeader{
+	margin: 0rem;
+    padding: 12px !important;
+    background: rgba(41, 58, 74, 0.95);
+    color: white;
+    border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	box-shadow: 0 0 3px rgb(0 0 0 / 20%);
+    margin-left: -10px !important;
+    margin-right: -12px !important;
+    margin-top: -12px !important;
+}
+
+.aside{
+	padding-top: 1.2em;
+}
+
+html.vue-app .dashboardTab.dashboardTab.mobile:not(:last-child) {
+    border-bottom: 0px solid #f4f4f4;
+}
+
+html.vue-app .dashboard.mobile .dashboard-mobile .fx\:dir\:row.fx\:dir\:row.fx\:equalWidth\:true{
+	padding-right: 2rem;
+	display:none;
+}
+
+.userbar>.userbar-button .ui-icon-counter{
+	display:none;
+}
+
+.userbar>.userbar-button .ui-icon-counter{
+	display:none;
+	
+}
+
+.\--media:tablet .userbar>.userbar-button .ui-icon-counter, .\--media:mobile .userbar>.userbar-button .ui-icon-counter{
+	display:block;
+}
+
+.icons-grid .icons-grid-category-title{
+	margin-bottom: 1.3rem;
+}
+
+.icons-grid .filters-bar>.filters-bar-search>.search-icon{
+	right: 2rem;
+}
+
+html.vue-app .dashboardTab.dashboardTab.mobile{
+	padding-left: 1.5rem!important;
+}
+
+html.vue-app .dashboard-mobile .dashboardTab.dashboardTab:not(.-is-editing):hover{
+	background: rgba(59, 74, 88, 0.95);
+}
+
+.dashboardTab .type\:h6, .dashboardTab .dashboardTab-more{
+	display:none;
+}
+
+.grid-footer{
+	border: 1px solid #e0e0e0;
+}
+
+.app-content .breadcrumbs.\--grid{
+	padding-left:1.5%;
+}
+
+html.vue-app body.\--grid-layout.\--dashboard .app-content main{
+	width:100%;
+	background: #f4f4f4 !important;
+	margin-bottom:0px;
+	border-radius:0px;
+	padding:0px;
+}
+
+html.vue-app body.\--grid-layout .app-content main{
+	width:97%;
+	background:white;
+	margin-bottom:20px;
+	border-radius:3px;
+	box-shadow: 0 0 3px rgb(0 0 0 / 10%);
+    padding: 0.9%;
+}
+
+#WGT_USER_STATS .usage, #WGT_USER_STATS .stats, #WGT_USER_STATS .info, #WGT_ADMIN_STATS .usage, #WGT_ADMIN_STATS .stats, #WGT_ADMIN_STATS .info, #WGT_RESELLER_STATS .usage, #WGT_RESELLER_STATS .stats, #WGT_RESELLER_STATS .info{
+	border: 0px;
+	padding: 0.8rem;
+	margin-top: 0rem;
+}
+
+html.vue-app .dashboardTab.dashboardTab.mobile .widget-content.widget-content{
+	padding-top:1.3rem;
+}
+
+#WGT_USER_STATS>div.info .info-entry .info-entry-title.info-entry-title, #WGT_RESELLER_STATS>div.info .info-entry .info-entry-title.info-entry-title, #WGT_ADMIN_STATS>div.info .info-entry .info-entry-title.info-entry-title{
+	padding: 0 0rem;
+	width: 102px;
+}
+
+#WGT_USER_STATS>div.info .info-entry .info-entry-link>span:first-child, #WGT_RESELLER_STATS>div.info .info-entry .info-entry-link>span:first-child, #WGT_ADMIN_STATS>div.info .info-entry .info-entry-link>span:first-child{
+	display:none;
+}
+
+#WGT_USER_STATS>div.info .info-entry .info-entry-link.info-entry-link, #WGT_RESELLER_STATS>div.info .info-entry .info-entry-link.info-entry-link, #WGT_ADMIN_STATS>div.info .info-entry .info-entry-link.info-entry-link{
+	font-size: 10px;
+    background: #829fba;
+    color: white;
+    padding: 5px;
+}
+
+#WGT_USER_STATS .usage.usage, #WGT_ADMIN_STATS .usage.usage, #WGT_RESELLER_STATS .usage.usage, #WGT_RESELLER_STATS .emails.emails{
+	padding-bottom:0px;
+}
+
+.dashboard-mobile .dashboardTabHeader .icon{
+	display:none;
+}
+
+html.vue-app.mobile .header-top .menu-trigger svg{
+	color: white;
+}
+
+.userbar-button-caret svg path, .domain-select-toggle svg path{
+	fill: white;
+}
+
+.domain-select-toggle .txt\:bold{
+	color:white;
+}
+
+@media (max-width: 767px){
+	.user-stats-widget>div.info .info-entry .info-entry-content.info-entry-content, .reseller-stats-widget>div.info .info-entry .info-entry-content.info-entry-content  {
+		text-align: left;
+	}
+}
+
+.user-stats-widget>div.info .info-entry .info-entry-link.info-entry-link, .reseller-stats-widget>div.info .info-entry .info-entry-link.info-entry-link {
+	text-align: center;
+}
