@@ -2,10 +2,6 @@ html.vue-app body.\--grid-layout .app-header, html.vue-app body .header-top.head
 	background: #293a4a;
 }
 
-.app.\--has-master-login .trial-license, .app.\--trial-license .trial-license{
-	display:none;
-}
-
 .access-level-toggle-switch .ui-toggle-switch .label{
 	display:none
 }
