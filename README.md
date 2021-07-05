@@ -17,7 +17,7 @@ Since I don't think DirectAdmin will make a skin 100% equal to cPanel for PR rea
 ## How to install:
 1) In DirectAdmin's admin settings, inside "Skin Manager", change the skin to Evolution
 2) Using your favorite FTP/STFP program, go to "/usr/local/directadmin/data/skins/evolution/assets/"
-3) Upload the css file and optionally the icons file.
+3) Upload the css file and optionally the icons file  (dont forget to clear cache if you upload the icons).
 4) In DA's admin settings, "Customize Evolution Skin"
 5) At "External CSS URL" write "/assets/custom.css" and submit.
 6) Optionally, change the logo to a logo with white background.
@@ -37,5 +37,5 @@ Since I don't think DirectAdmin will make a skin 100% equal to cPanel for PR rea
 **Q)** The widget bar lost some of it functionality, is it intended?<br>
 **A)** Yes. You can remove some of the display:none's to restore the funtionality that you want.
 
-**Q)** Ewww. Your css code looks terrible?<br>
+**Q)** Ewww. Your css code looks terrible.<br>
 **A)** Yes.
