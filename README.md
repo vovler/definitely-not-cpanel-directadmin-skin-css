@@ -34,5 +34,8 @@ Since I don't think DirectAdmin will make a skin 100% equal to cPanel for PR rea
 **Q)** Will you ever improve the reseller or admin panel look?<br>
 **A)** Eventually™. But you can fork this, improve it yourself and create a pull request.
 
+**Q)** The widget bar lost some of it functionality, is it intended?<br>
+**A)** Yes. You can remove some of the display:none's to restore the funtionality that you want.
+
 **Q)** Ewww. Your css code looks terrible?<br>
 **A)** Yes.
