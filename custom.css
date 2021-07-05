@@ -103,7 +103,7 @@ html.vue-app .dashboard.mobile .dashboard-mobile .fx\:dir\:row.fx\:dir\:row.fx\:
 }
 
 .icons-grid .icons-grid-category-title{
-	margin-bottom: 1.3rem;
+	margin-bottom: 1rem;
 }
 
 .icons-grid .filters-bar>.filters-bar-search>.search-icon{
@@ -201,4 +201,88 @@ html.vue-app.mobile .header-top .menu-trigger svg{
 
 .user-stats-widget>div.info .info-entry .info-entry-link.info-entry-link, .reseller-stats-widget>div.info .info-entry .info-entry-link.info-entry-link {
 	text-align: center;
+}
+
+@media (max-width: 1024px){
+	.access-level-toggle-switch.access-level-toggle-switch {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+nav.app-page-header-links a span:first-child{
+	display:none;
+}
+
+nav.app-page-header-links a span:last-child{
+	display:block !important;
+}
+
+html.vue-app nav.app-page-header-links a{
+	background: #42a2ff;
+    color: white !important;
+    padding: 7px 1.5rem;
+    border: 1px solid transparent;
+    box-shadow: inset 0 -2px hsl(209deg 60% 48%);
+	margin-right: 0rem;
+	text-transform: uppercase;
+}
+html.vue-app nav.app-page-header-links a:hover{
+	opacity: 0.75 !important;
+}
+
+html.vue-app .app-page-header .app-page-header-navigation .app-page-header-links.app-page-header-links{
+	margin-right: 0rem;
+}
+
+#iframe-container iframe{
+	min-width: 100%;
+}
+
+.icons-grid .icons-grid-category-entries .icons-grid-category-entry.icons-grid-category-entry{
+	flex-wrap: nowrap;
+	border: 0px;
+	padding: 0rem;
+	width: 24.4rem;
+	flex-direction: row;
+	margin: 0.2rem;
+}
+
+@media (max-width: 1366px){
+	.icons-grid .icons-grid-category-entries .icons-grid-category-entry.icons-grid-category-entry{
+		width: 23rem;
+	}
+}
+
+#icons-grid-overlay .icons-grid .icons-grid-category-entries .icons-grid-category-entry.icons-grid-category-entry{
+	width: 22.2rem;
+}
+
+.icons-grid .icons-grid-category-entries .icons-grid-category-entry .icons-grid-category-entry-icon.icons-grid-category-entry-icon{
+	width: 58px;
+    height: 58px;
+}
+
+.icons-grid .icons-grid-category-entries .icons-grid-category-entry .icons-grid-category-entry-name.icons-grid-category-entry-name{
+	font-size: 1.3rem;
+    color: #101043;
+    margin-left: 2px;
+	text-align: left;
+}
+
+#mobile-menu .icons-grid-wrapper .icons-grid-content .icons-grid-category-entry.icons-grid-category-entry{
+	width: 19rem;
+}
+
+.folders-tree .q-tree__node--selected.q-tree__node--selected{
+	background: #d9ecff;
+	border-radius:0px;
+}
+
+.folders-tree .folder-tree-list-item.text-primary.text-primary{
+	color: black !important;
+}
+
+.icons-dashboard .icons-grid .icons-grid-content::-webkit-scrollbar-track{
+	box-shadow: inset 3px 0 0 0 #f4f4f4, inset -3px 0 0 0 #f4f4f4 !important;
 }
