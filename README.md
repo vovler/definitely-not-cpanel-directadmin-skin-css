@@ -11,7 +11,7 @@ Since I don't think DirectAdmin will make a skin 100% equal to cPanel for PR rea
 
 ### Before:
 ![Before](https://i.imgur.com/ozzUha4.png)
-### After:
+### After (including some menu organization changes):
 ![After](https://i.imgur.com/Gl5fMl6.png)
 
 ## How to install:
