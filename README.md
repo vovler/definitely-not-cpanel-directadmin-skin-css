@@ -2,7 +2,7 @@
 
 It's sad that cPanel increased prices so much, especially for people that run a $5 VPS or sell shared hosting for low cost. There were price increases of about 1000% for some of their clients in 2019. Roughtly a year later, they announced price increases again for Jan 2021, similarly as bad.<br>
 Some moved to Plesk cause it's effectively cheaper than cPanel, the only issue is that Plesk is owned by the same parent company as cPanel.<br><br>
-Many made the move to DirectAdmin, however it is not as polished, and some features feel clunky. And for those used to cPanel, DirectAdmin's themes are a bit off-putting.<br>
+Many made the move to DirectAdmin, however it is not as polished, and some features feel clunky. And for those used to cPanel's paper_latern skin, DirectAdmin's skins are a bit off-putting.<br>
 Since I don't think DirectAdmin will make a skin 100% equal to cPanel for PR reasons, I decided to customize their Evolution skin to resemble cPanel's.<br><br>
 
 ## How does it look:
