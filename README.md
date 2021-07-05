@@ -18,7 +18,7 @@ Since I don't think DirectAdmin will make a skin 100% equal to cPanel for PR rea
 1) In DirectAdmin's admin settings, inside "Skin Manager", change the skin to Evolution
 2) Using your favorite FTP/STFP program, go to "/usr/local/directadmin/data/skins/evolution/assets/"
 3) Upload the css file and optionally the icons file  (dont forget to clear cache if you upload the icons).
-4) In DA's admin settings, "Customize Evolution Skin"
+4) In DA's admin settings go to "Customize Evolution Skin"
 5) At "External CSS URL" write "/assets/custom.css" and submit.
 6) Optionally, change the logo to a logo with white background.
 7) Optionally, in DA's admin settings, inside "Customize Evolution Skin" organize the Menu:User / Reseller / Admin to resemble cPanel's. 
