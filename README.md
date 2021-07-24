@@ -1,4 +1,4 @@
-# Definitly-not-cPanel DirectAdmin skin/custom-css
+# Definitely-not-cPanel DirectAdmin skin/custom-css
 
 **Version: 2.0**
 
